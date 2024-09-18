@@ -27,9 +27,10 @@ Before you begin, ensure you have met the following requirements:
 
 ### 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/tailor-erp.git
-   cd tailor-erp
+   git https://github.com/YuriiLohvynenko/tailor-ERP.git
+   cd tailor-ERP
 
+### 1. Clone the repository:
 ### 2. Install PHP dependencies:
    ```bash
    composer install
