@@ -62,9 +62,9 @@ Before you begin, ensure you have met the following requirements:
    DB_PASSWORD=yourpassword
 
 2. **Apache/Nginx Configuration:**
-Ensure your Apache or Nginx is pointing to the public directory of the project.
+   Ensure your Apache or Nginx is pointing to the public directory of the project.
 
-Example for Apache (in your VirtualHost):
+   Example for Apache (in your VirtualHost):
    ```bash
    DocumentRoot "/path/to/tailor-erp/public"
    <Directory "/path/to/tailor-erp/public">
