@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-### 1. Clone the repository:
+1. Clone the repository:
    ```bash
    git https://github.com/YuriiLohvynenko/tailor-ERP.git
    cd tailor-ERP
@@ -35,16 +35,16 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    composer install
 
-### 3. Install JavaScript dependencies (if any):
+3. Install JavaScript dependencies (if any):
    ```bash
    npm install
 
-### 4. Set folder permissions:
+4. Set folder permissions:
    ```bash
    chmod -R 777 application/cache
    chmod -R 777 application/logs
 
-### Configuration
+## Configuration
 
 1. **Configure the environment file:
    Copy the .env.example file and rename it to .env:
