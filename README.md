@@ -46,14 +46,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Configuration
 
-1. **Configure the environment file:
+1. **Configure the environment file:**
    Copy the .env.example file and rename it to .env:
    ```bash
    cp .env.example .env
 
    Open .env and set the appropriate environment variables for your database connection and app settings:
 
-   ```bash
+   
    APP_ENV=development
    BASE_URL=http://localhost/tailor-erp
    DB_HOST=localhost
@@ -71,7 +71,7 @@ Example for Apache (in your VirtualHost):
        AllowOverride All
    </Directory>
 
-### Database Setup
+## Database Setup
 
 1. Create a new database:
    ```bash
@@ -81,7 +81,7 @@ Example for Apache (in your VirtualHost):
    ```bash
    mysql -u root -p erp_db < database/erp_db.sql
 
-### Usage
+## Usage
 
 1. **Start the local development server (or configure with Apache/Nginx):**
    ```bash
@@ -93,7 +93,7 @@ Visit the application at http://localhost:8080.
 - **Username:** admin
 - **Password:** admin123
 
-### Folder Structure
+## Folder Structure
    ```bash
    /application
        /controllers
