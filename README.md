@@ -110,35 +110,35 @@ Visit the application at http://localhost:8080.
    package.json
    README.md
 
-- application/ - Contains the core CodeIgniter framework files and custom logic.
-- public/ - Public assets and index file.
-- database/ - Contains the initial SQL schema.
+   - application/ - Contains the core CodeIgniter framework files and custom logic.
+   - public/ - Public assets and index file.
+   - database/ - Contains the initial SQL schema.
 
-### Features
-- Order Management
-- Inventory Management
-- Customer Management
-- Tailor Assignment
-- Reporting & Analytics
+## Features
+   - Order Management
+   - Inventory Management
+   - Customer Management
+   - Tailor Assignment
+   - Reporting & Analytics
 
-### Troubleshooting
-**Common Issues:**
+## Troubleshooting
+### Common Issues:
 
-1. 500 Internal Server Error:
+   1. 500 Internal Server Error:
 
-- Check file permissions for /application/cache and /application/logs.
-- Ensure Apache/Nginx points to the public/ directory.
-2. Database Connection Error:
+   - Check file permissions for /application/cache and /application/logs.
+   - Ensure Apache/Nginx points to the public/ directory.
+   2. Database Connection Error:
 
-- Double-check your .env file for correct database credentials.
-3. Missing Dependencies:
+   - Double-check your .env file for correct database credentials.
+   3. Missing Dependencies:
 
-- Run composer install and npm install to ensure all packages are installed.
+   - Run composer install and npm install to ensure all packages are installed.
 
-### Contributing
+## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome!
 
-### License
+## License
 This project is licensed under the MIT License.
 
 **Thank you for using the Tailor ERP System platform! If you like this project, please give it a ⭐ on GitHub.**
