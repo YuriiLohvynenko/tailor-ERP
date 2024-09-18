@@ -94,7 +94,7 @@ Visit the application at http://localhost:8080.
 - **Password:** admin123
 
 ## Folder Structure
-   ```bash
+   
    /application
        /controllers
        /models
