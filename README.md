@@ -43,23 +43,24 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    chmod -R 777 application/cache
    chmod -R 777 application/logs
-
+   ```
+   
 ## Configuration
 
 1. **Configure the environment file:**
    Copy the .env.example file and rename it to .env:
    ```bash
    cp .env.example .env
-
+   ```
    Open .env and set the appropriate environment variables for your database connection and app settings:
-
-   
+   ```bash   
    APP_ENV=development
    BASE_URL=http://localhost/tailor-erp
    DB_HOST=localhost
    DB_DATABASE=erp_db
    DB_USERNAME=root
    DB_PASSWORD=yourpassword
+   ```
 
 2. **Apache/Nginx Configuration:**
    Ensure your Apache or Nginx is pointing to the public directory of the project.
@@ -94,7 +95,7 @@ Visit the application at http://localhost:8080.
 - **Password:** admin123
 
 ## Folder Structure
-   
+   ```bash
    /application
        /controllers
        /models
@@ -109,7 +110,7 @@ Visit the application at http://localhost:8080.
    composer.json
    package.json
    README.md
-
+   ```
    - application/ - Contains the core CodeIgniter framework files and custom logic.
    - public/ - Public assets and index file.
    - database/ - Contains the initial SQL schema.
