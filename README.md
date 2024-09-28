@@ -44,7 +44,7 @@ Before you begin, ensure you have met the following requirements:
    chmod -R 777 application/cache
    chmod -R 777 application/logs
    ```
-   
+
 ## Configuration
 
 1. **Configure the environment file:**
@@ -88,11 +88,11 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    php spark serve
 
-Visit the application at http://localhost:8080.
+   Visit the application at http://localhost:8080.
 
 2. **Default Admin Credentials:**
-- **Username:** admin
-- **Password:** admin123
+   - **Username:** admin
+   - **Password:** admin123
 
 ## Folder Structure
    ```bash
@@ -126,15 +126,12 @@ Visit the application at http://localhost:8080.
 ### Common Issues:
 
    1. 500 Internal Server Error:
-
-   - Check file permissions for /application/cache and /application/logs.
-   - Ensure Apache/Nginx points to the public/ directory.
+      - Check file permissions for /application/cache and /application/logs.
+      - Ensure Apache/Nginx points to the public/ directory.
    2. Database Connection Error:
-
-   - Double-check your .env file for correct database credentials.
+      - Double-check your .env file for correct database credentials.
    3. Missing Dependencies:
-
-   - Run composer install and npm install to ensure all packages are installed.
+      - Run composer install and npm install to ensure all packages are installed.
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome!
